@@ -34,8 +34,6 @@ header {
             color: #0097A7; }
           header nav ul li a:after {
             text-decoration: none; }
-    header nav ul.burger {
-      display: none; }
     header nav h3 {
       margin: 0 !important;
       border: 1px solid #898989;
@@ -44,6 +42,8 @@ header {
       text-transform: uppercase;
       font-size: 16px;
       color: #FF5252; }
+    header nav h3.mini-logo {
+      display: none; }
 
 #servicios {
   padding-top: 90px;
@@ -328,13 +328,9 @@ footer {
       padding: 0px 5px 0px 4px; }
       header nav ul li a {
         font-size: 11px; }
-  header nav h3 {
-    margin: 0 !important;
-    border: 1px solid #898989;
-    border-radius: 3px;
-    padding: 2px 5px;
-    text-transform: uppercase;
-    font-size: 12px;
-    color: #FF5252; } }
+  header nav h3.logo {
+    display: none; }
+  header nav h3.mini-logo {
+    display: block; } }
 
 /*# sourceMappingURL=style.css.map */
