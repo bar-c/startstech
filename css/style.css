@@ -73,7 +73,9 @@ header {
   #servicios .box-servicios {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between; }
+    justify-content: space-between;
+    width: 80%;
+    margin: auto; }
     #servicios .box-servicios article {
       box-shadow: 0 8px 6px -6px #7d7c7c;
       border: 1px solid #eaeaea;
@@ -240,6 +242,19 @@ footer {
       font-family: "Dosis", sans-serif;
       text-transform: uppercase;
       font-weight: 500; }
+    footer .contenedor .titulo-redes h3 {
+      margin: 0 !important;
+      border: 1px solid #898989;
+      border-radius: 3px;
+      padding: 4px 10px;
+      text-transform: uppercase;
+      font-size: 16px;
+      color: #FF5252; }
+    footer .contenedor .titulo-redes .startstech {
+      margin: auto;
+      max-width: 150px;
+      margin-top: 5px;
+      margin-bottom: 10px; }
   footer .contenedor .lineabefore, footer .contenedor .linea:after {
     height: 3px;
     background-color: #00BCD4;
@@ -268,7 +283,9 @@ footer {
           top: 10px; }
   footer .contenedor .menu-footer {
     text-align: center;
-    margin: 20px 5px; }
+    margin: auto;
+    margin-top: 10px;
+    width: 73%; }
     footer .contenedor .menu-footer ul {
       display: inline-block;
       padding-left: 0px; }
@@ -315,7 +332,12 @@ footer {
 @media screen and (max-width: 580px) {
   #servicios .box-servicios {
     justify-content: center;
-    width: 100%; } }
+    width: 100%; }
+
+  .carousel-caption {
+    bottom: -60px; }
+    .carousel-caption h1 {
+      font-size: 17px; } }
 @media screen and (min-width: 250px) and (max-width: 450px) {
   .carousel-caption {
     bottom: -60px; }
